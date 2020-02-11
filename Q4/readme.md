@@ -11,8 +11,8 @@ Function answer(from, to)
 {
   if (from == to)
     return 1
-  if (from > to)
-    return answer(to, from)
+  if (from > to)    
+    return answer(to, from)  # This statement is very concise, automatically change the input
   if from == s or from == t
     if there exist more than one entry not read yet with the same from
       return 0
